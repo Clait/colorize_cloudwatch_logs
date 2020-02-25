@@ -16,7 +16,8 @@
   },
   "content_scripts": [{
     "matches": [
-      "https://*.console.aws.amazon.com/cloudwatch/*"
+      "https://*.console.aws.amazon.com/cloudwatch/*",
+      "https://*bamboo.*/download/*/build_logs/*"
     ],
     "js": [
       "lib/ansi_up.js",
